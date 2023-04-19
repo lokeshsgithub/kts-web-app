@@ -1,7 +1,7 @@
 version: '3'
 services:
   kts-web-app:
-    image: kts-web-app:1
+    image: lokeshsdockerhub/kts-web-app:1
     ports:
       - 8080:8080
     networks:
